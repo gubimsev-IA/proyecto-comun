@@ -170,6 +170,26 @@ En la raíz del proyecto hay un archivo `AGENTS.md` con las normas del grupo par
 
 ---
 
+## 8. Límites del plan gratuito de GitHub
+
+Usamos el plan gratuito con un repositorio público. Datos de [github.com/pricing](https://github.com/pricing) y [docs.github.com](https://docs.github.com), consultados el 27-11-2026:
+
+| Qué | Límite |
+|---|---|
+| Personas y repositorios | Ilimitados |
+| GitHub Actions (automatizaciones) | Gratis en repositorios públicos con los runners estándar. En privados, 2.000 minutos al mes aproximadamente (12 $ de uso incluido) |
+| Paquetes y artefactos | 500 MB |
+| Subir un archivo desde el navegador | Máximo 25 MB por archivo |
+| Tamaño de un archivo | Aviso a partir de 50 MB; GitHub rechaza los de más de 100 MB |
+| Tamaño del repositorio | Lo ideal, menos de 1 GB; muy recomendable, menos de 5 GB |
+| Web con GitHub Pages | Solo en repositorios públicos; sitio de hasta 1 GB y unos 100 GB de tráfico al mes |
+| Codespaces (programar en la nube) | 120 horas y 15 GB al mes en cuentas personales; las organizaciones gratuitas no tienen cuota |
+
+**Lo que más nos afecta:**
+
+- **Los modelos BIM pesados (RVT, IFC grandes, nubes de puntos) no se suben a GitHub.** Se guardan en una carpeta compartida y en el repositorio se pone el enlace. Para pruebas, usad modelos pequeños.
+- **El plan gratuito solo permite proteger ramas, CODEOWNERS y revisores en repositorios públicos.** Por eso el nuestro es público: nunca subáis nada confidencial.
+
 ## Preguntas frecuentes
 
 **¿Puedo romper algo?**
