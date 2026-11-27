@@ -1,4 +1,4 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: Dudas generales y debates
     url: https://github.com/gubimsev-IA/proyecto-comun/discussions

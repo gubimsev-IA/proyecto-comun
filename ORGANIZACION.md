@@ -19,7 +19,8 @@ Las reglas del juego, en una página. Si algo no funciona, se cambia: estas regl
 
 ```
                     PROYECTO COMÚN
-               Coordinación: Paco y Fernando
+                  Coordina: una IA
+             Deciden: todas las personas
                           │
         ┌─────────────┬───┴─────────┬─────────────┐
      Equipo A      Equipo B      Equipo C      Equipo D
@@ -28,12 +29,20 @@ Las reglas del juego, en una página. Si algo no funciona, se cambia: estas regl
      personas      personas      personas      personas
 ```
 
-### Coordinación
+### La IA coordinadora
 
-- Cuida la visión común del proyecto y que las partes encajen.
-- Organiza las reuniones de seguimiento.
-- Resuelve bloqueos y decide cuando no hay acuerdo.
-- Aprueba los cambios que afectan a todo el proyecto (los archivos de la raíz, como este).
+No hay jefe de proyecto: nadie tiene por qué cargar con la gestión. La coordinación la hace una IA que trabaja sobre este repositorio (por ejemplo, Claude Code o Codex con acceso a GitHub). Sus normas están en `AGENTS.md`, apartado «Si actúas como IA coordinadora».
+
+- Mantiene el plan del proyecto al día (`PLAN.md`).
+- Crea las tareas (issues) a partir del plan, con su equipo y su nivel.
+- Antes de cada reunión, resume lo que se ha hecho y lo que está bloqueado.
+- Revisa los pull requests y avisa de problemas, pero **no aprueba ni fusiona nada**: eso lo hacen siempre personas.
+
+**La IA propone; las personas deciden.** Cualquier persona del grupo puede pedirle a la IA coordinadora que haga su trabajo; lo que produce entra, como todo, por pull request.
+
+### Administración del repositorio
+
+Paco mantiene la configuración técnica del repositorio (permisos, protección de `main`, invitaciones). No decide sobre el proyecto: eso es de todos.
 
 ### Responsable de equipo
 
@@ -77,10 +86,10 @@ Si un cambio necesita tocar la carpeta de otro equipo, se avisa antes en un issu
 
 ### Tareas = issues
 
-Todo trabajo empieza como un issue (pestaña **Issues**), con la plantilla **Tarea**. Así sabemos qué hay pendiente, quién lo hace y qué está terminado.
+Todo trabajo empieza como un issue (pestaña **Issues**), con la plantilla **Tarea**. Así sabemos qué hay pendiente, quién lo hace y qué está terminado. Normalmente las crea la IA coordinadora a partir del plan; cualquiera puede proponer más.
 
 - **Etiquetas:** cada tarea lleva la etiqueta de su equipo y, si es sencilla, `primera-tarea` para que la pueda coger alguien que empieza.
-- **Coger una tarea:** se comenta "Me la pido" y el responsable la asigna.
+- **Coger una tarea:** se comenta "Me la pido" (botón **Comment**, no «Close») y el responsable la asigna.
 - **Soltarla:** si no puedes seguir, avisa en el issue. No pasa nada.
 
 ### Cambios = ramas cortas + pull requests
@@ -116,8 +125,10 @@ Las conversaciones de trabajo van en GitHub, no en el grupo de mensajería, para
 ## Cómo se decide
 
 1. **Dentro de un equipo**, decide el equipo. Si no hay acuerdo, decide su responsable.
-2. **Entre equipos**, deciden los responsables implicados. Si no hay acuerdo, decide coordinación.
+2. **Entre equipos**, deciden los responsables implicados. Si no hay acuerdo, se vota en la siguiente reunión.
 3. **Lo que afecta a todo el proyecto** (cambiar la idea, crear o cerrar equipos, cambiar estas reglas) se propone en Discussions o en una reunión, y se vota con 👍.
+
+La IA coordinadora puede proponer, resumir y avisar, pero nunca decide.
 
 ---
 

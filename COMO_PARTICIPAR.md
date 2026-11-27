@@ -81,12 +81,14 @@ Si en la sesión te han dado un enlace o un QR para la ficha, ábrelo: te lleva 
    - En el cuadro del nombre escribe `nombre-apellido.md`, en minúsculas, sin tildes ni espacios. Por ejemplo: `maria-garcia.md`.
    - En el cuadro grande pega la plantilla y rellénala con tus datos. Lo que va entre `<!--` y `-->` son notas de ayuda: puedes borrarlas.
 
-5. **Envíalo a revisión.** Pulsa el botón verde de arriba a la derecha (puede llamarse **Commit changes…** o **Propose changes**).
-   - Como aún no eres miembro del proyecto, GitHub te avisará de que no puedes escribir directamente y creará **una copia propia (fork)** para ti. **Es lo normal**: acepta.
-   - En el mensaje escribe algo como `Añado la ficha de María García`.
-   - Pulsa el botón verde para confirmar.
+5. **Envíalo a revisión.** Pulsa el botón verde de arriba a la derecha, **Commit changes…**. Se abre una ventana llamada **Propose changes**:
+   - Como aún no eres miembro del proyecto, GitHub te avisará de que va a crear **una copia propia (fork)** para ti. **Es lo normal**: acepta.
+   - El mensaje ya viene escrito (`Create maria-garcia.md`). Puedes dejarlo así.
+   - Pulsa el botón verde **Propose changes**.
 
-6. **Crea el pull request.** GitHub te llevará a una pantalla que compara tu cambio con el proyecto. Pulsa **Create pull request**, revisa el título y vuelve a pulsar **Create pull request**.
+6. **Crea el pull request.** Se abre la página **Open a pull request**. La descripción trae unas preguntas (Qué cambia, Por qué…): para la ficha no hace falta rellenarlas ni borrarlas. Pulsa el botón verde **Create pull request**.
+
+   Si aparece algún aviso de GitHub encima (por ejemplo, «Try the Overview page»), ciérralo con **Not now** o **Dismiss**: no afecta a nada.
 
 **¡Hecho!** Acabas de hacer tu primer pull request. Ahora un responsable lo revisará y lo aprobará. Recibirás un correo cuando pase.
 
@@ -96,20 +98,31 @@ No pasa nada. Mientras no esté aprobado, puedes entrar en tu pull request (pest
 
 ---
 
-## 4. Apuntar una tarea, una idea o un problema (issues)
+## 4. Pedirte una tarea (issues)
 
 Los **issues** son como incidencias BCF: cada uno es una tarea, una idea o un problema, con su conversación debajo.
 
-1. En el repositorio, pestaña **Issues** → botón **New issue**.
-2. Elige el tipo:
-   - **Tarea:** algo concreto que hay que hacer.
-   - **Idea:** una propuesta para el proyecto.
-   - **Problema:** algo que no funciona.
-3. Rellena el formulario y pulsa **Create**.
+**Las tareas las crea la IA coordinadora** a partir del plan del proyecto. Tú no tienes que crearlas: solo elegir una y pedírtela.
 
-**Para opinar** sobre un issue que ya existe, escribe un comentario abajo. **Para apoyar** una idea sin escribir nada, pulsa el emoji 👍 del primer mensaje: así votamos.
+1. En el repositorio, pestaña **Issues**. Cada línea es una tarea.
+2. **Haz clic en la etiqueta de tu equipo** (las cápsulas de colores junto al título): solo verás las tareas de tu equipo. La etiqueta `primera-tarea` marca las más sencillas.
+3. Abre la tarea que te apetezca y léela: qué hay que hacer y cómo sabremos que está terminada.
+4. Baja hasta el cuadro **Add a comment**, escribe **Me la pido** y pulsa el botón verde **Comment**.
+   - **Ojo:** el botón de al lado, **Close with comment** (o **Close issue**), **cierra la tarea**. No es el que buscas.
+5. El responsable de tu equipo te la asignará. Si tienes dudas sobre la tarea, pregúntalas en ese mismo hilo: así quedan guardadas con ella.
 
-**Para coger una tarea:** comenta "Me la pido" en el issue. El responsable te la asignará.
+**Para practicar** hay una tarea de práctica abierta: «[Tarea] Práctica: pídete esta tarea». Pídetela sin miedo, aunque otros ya lo hayan hecho.
+
+### Si quieres crear tú una tarea, una idea o un problema
+
+1. Pestaña **Issues** → botón **New issue**.
+2. Elige el tipo: **Tarea** (algo concreto que hacer), **Idea** (una propuesta) o **Problema** (algo que no funciona).
+3. El formulario se abre en una ventana. Rellena **todos los campos marcados con \***. En una tarea son: el título (completa el que empieza por `[Tarea]`), el **Equipo** (su nombre, tal como aparece en su carpeta, por ejemplo `visor`), **Qué hay que hacer**, **Cómo sabremos que está terminada** y el **Nivel necesario**.
+4. Pulsa **Create**. La lista puede tardar unos segundos en mostrar el issue nuevo: no lo crees dos veces.
+
+También puedes pedírselo a la IA: «Crea en el repositorio gubimsev-IA/proyecto-comun una tarea para el equipo visor que consista en…».
+
+**Para apoyar** una idea sin escribir nada, pulsa el emoji 👍 de su primer mensaje: así votamos.
 
 ---
 

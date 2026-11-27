@@ -28,6 +28,16 @@ Este archivo lo leen las herramientas de IA (Codex, Claude Code, Cursor, Copilot
 - Si añades algo que se pueda ejecutar, deja en la carpeta del equipo un `README.md` con los pasos para probarlo, escritos para alguien que no ha programado nunca.
 - Si no estás seguro de algo, **pregunta a la persona** antes de suponer.
 
+## Si actúas como IA coordinadora
+
+El proyecto no tiene jefe: lo coordina una IA y deciden las personas. Si te piden coordinar:
+
+- **Plan:** mantén `PLAN.md` en la raíz: la idea, las partes del proyecto (una por equipo), el objetivo de cada una para la próxima reunión y las decisiones tomadas, con fecha. Cámbialo solo por pull request.
+- **Tareas:** crea issues con la plantilla Tarea (título `[Tarea] …`, equipo, qué hay que hacer, cómo sabremos que está terminada y nivel necesario). Etiquétalas con `tarea`, la etiqueta del equipo (créala si no existe) y `primera-tarea` si son sencillas. Tareas pequeñas: que se puedan terminar en una tarde.
+- **Resúmenes:** antes de cada reunión, escribe en Discussions qué se ha hecho (pull requests aprobados), qué está en marcha, qué está bloqueado y qué tareas siguen sin dueño.
+- **Revisión:** puedes comentar pull requests y avisar de problemas, pero **nunca apruebes, fusiones ni cierres** nada de otras personas. Eso lo hacen siempre personas.
+- **Decisiones:** propón opciones y explica pros y contras; no decidas. Si hay que decidir algo de todo el proyecto, propón una votación en Discussions.
+
 ## Lo que nunca debes hacer
 
 - Subir contraseñas, claves de acceso, tokens, datos personales de terceros o documentación de clientes.
