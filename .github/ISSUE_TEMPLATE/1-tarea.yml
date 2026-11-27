@@ -1,0 +1,46 @@
+name: Tarea
+description: Algo concreto que hay que hacer.
+title: "[Tarea] "
+labels: ["tarea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe una tarea concreta. Cuanto más pequeña, mejor: si es muy grande, divídela en varias.
+  - type: input
+    id: equipo
+    attributes:
+      label: Equipo
+      description: ¿A qué equipo pertenece esta tarea?
+      placeholder: "Ejemplo: visor"
+    validations:
+      required: true
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué hay que hacer
+      description: Explícalo para que lo entienda alguien que no estuvo en la conversación.
+    validations:
+      required: true
+  - type: textarea
+    id: terminado
+    attributes:
+      label: Cómo sabremos que está terminada
+      description: "Ejemplo: Al abrir la página se ve el modelo y se puede girar con el ratón."
+    validations:
+      required: true
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nivel necesario
+      options:
+        - Cualquiera puede hacerla
+        - Hace falta usar la IA con soltura
+        - Hace falta saber programar
+    validations:
+      required: true
+  - type: textarea
+    id: ayuda
+    attributes:
+      label: Pistas o enlaces útiles
+      description: Opcional.

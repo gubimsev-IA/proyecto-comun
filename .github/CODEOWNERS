@@ -1,0 +1,19 @@
+# Quién revisa cada parte del proyecto
+#
+# GitHub pide automáticamente la revisión de estas personas cuando alguien
+# propone un cambio en su carpeta. Las líneas que empiezan por # no cuentan.
+#
+# Después de la sesión, sustituye ORGANIZACION, los usuarios y los equipos
+# reales, y quita la # del principio de cada línea que quieras activar.
+# Importante: cada persona que aparezca aquí debe ser miembro de la
+# organización con permiso de escritura, o GitHub ignorará la línea.
+
+# Por defecto, todo lo revisa coordinación
+# *                          @usuario-paco @usuario-fernando
+
+# Cada equipo revisa su carpeta (ejemplos)
+# /equipos/nombre-equipo-a/  @responsable-a
+# /equipos/nombre-equipo-b/  @responsable-b
+
+# Las fichas las puede aprobar cualquier responsable
+# /participantes/            @responsable-a @responsable-b @usuario-paco

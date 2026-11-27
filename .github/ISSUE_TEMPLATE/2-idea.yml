@@ -1,0 +1,26 @@
+name: Idea
+description: Una propuesta para el proyecto. Se vota con 👍.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por proponer! Las ideas se apoyan pulsando 👍 en el primer mensaje.
+  - type: textarea
+    id: idea
+    attributes:
+      label: La idea en una frase
+      placeholder: "Una herramienta / aplicación / experimento que…"
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por qué merece la pena
+      description: ¿A quién le sirve? ¿Qué problema resuelve o qué nos permite aprender?
+  - type: textarea
+    id: equipo
+    attributes:
+      label: Equipo que podría encargarse
+      description: Opcional. Si no lo sabes, déjalo en blanco.

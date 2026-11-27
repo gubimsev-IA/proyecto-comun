@@ -1,0 +1,27 @@
+name: Problema
+description: Algo que no funciona o no se entiende.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avisar de un problema también es aportar. No hace falta saber por qué pasa.
+  - type: textarea
+    id: que-pasa
+    attributes:
+      label: Qué pasa
+      description: Qué has hecho y qué ha ocurrido.
+    validations:
+      required: true
+  - type: textarea
+    id: que-esperabas
+    attributes:
+      label: Qué esperabas que pasara
+    validations:
+      required: true
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Capturas de pantalla
+      description: Opcional. Puedes arrastrar imágenes a este cuadro.

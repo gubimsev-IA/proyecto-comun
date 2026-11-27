@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Dudas generales y debates
+    url: https://github.com/gubimsev-IA/proyecto-comun/discussions
+    about: Para preguntas y conversaciones que no son una tarea concreta.
